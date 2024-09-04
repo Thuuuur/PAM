@@ -15,14 +15,12 @@ export default function Details(){
     return(
             <View style ={styles.viewContainer}>
 
-      
-
          
-          <Image resizeMode='stretch' style={styles.imageBanner} source ={require(`../../Img/${route.params.imagem}`)} />
+          <Image resizeMode='stretch' style={styles.imageBanner} source ={{uri:`https://image.tmdb.org/t/p/w500${route.params.imagem}`}} />
           <TouchableOpacity style ={styles.backButton} onPress={navigation.goBack}> 
           <AntDesign  name="leftcircle" size={35} color="white" /> 
           </TouchableOpacity>
-          <View style={{marginTop:350}}>
+          <View style={{marginTop:430}}>
           <Stars
             disabled = {true}
             default = {route.params?.nota}

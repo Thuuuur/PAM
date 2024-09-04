@@ -11,12 +11,12 @@ const styles= StyleSheet.create({
     },
     imageBanner: {
         width: '100%',
-        height: 400,
+        height: 500,
         borderRadius: 20,
         shadowColor: '#000',
         shadowOffset: {
-            width: 0,
-            height: 2,
+        width: 0,
+        height: 2,
         },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
@@ -35,7 +35,7 @@ const styles= StyleSheet.create({
         height:50,
         backgroundColor:'rgba(25,26,48,0.8)',
          borderRadius:27,
-         marginTop:-380,
+         marginTop:-480,
          alignItems:'center',
          justifyContent:"center",
          marginLeft:20

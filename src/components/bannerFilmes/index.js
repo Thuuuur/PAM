@@ -12,7 +12,7 @@ export default function BannerFilmes(){
         <>
  <Text style = {styles.textBanner}> Em cartaz  </Text>
 
- <Image style = {styles.imageBanner} source = {require(`../../Img/${imagem}.jpg`)}/>
+ <Image style = {styles.imageBanner} source = {{uri:`https://image.tmdb.org/t/p/w500${imagem}`}}/>
         </>
     );
 

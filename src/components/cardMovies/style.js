@@ -7,7 +7,7 @@ const styles= StyleSheet.create({
         paddingTop:20,
         paddingBottom:16,
         paddingRight:16,
-        width:140,
+        width:'48%',
         heigh:28
     },
 
@@ -25,7 +25,7 @@ const styles= StyleSheet.create({
 
     images:{
         width:'100%',
-        height:170,
+        height:250,
         borderRadius: 8     
     }
 
